@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+P{
+    font-weight: 300;
+    color: #111;
+    
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-family: 2em;
+    text-decoration: none;
+
+}
+.logo span{
+    color: #FB911F;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    
+}
+.navbar li{
+    list-style: none;
+
+}
+.navbar a{
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-reserve{
+    padding: 10PX 20px;
+    background: #FB911F;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-reserve:hover{
+     background: #D87710;
+     transition: ease-out;
+}
+header .navbar li a:hover{
+    color: #FB911F;
+    border-bottom: 2px solid #FB911F;
+}
+.BANNIERE{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/pexels-senuscape-728360-1658967.jpg);
+    background-size: cover;
+}
+.BANNIERE .CONTENU{
+    max-width: 70%;
+    text-align: center;
+
+}
+.BANNIERE .CONTENU h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.CONTENU P:nth-child(2){
+    color: #ffff;
+    font-size: 1.2em;
+
+}
+.bnt1{
+    font-size: 1em;
+    color: #fff;
+    background: #FB911F;
+    padding: 1Opx 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.bnt2{
+    font-size: 1em;
+    color: #fff;
+    background: #2A4963;
+    padding: 1Opx 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.bnt1:hover{
+    letter-spacing: 4px;
+    
+}
+section{
+    padding: 100px;
+}
+.ROW{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ROW .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.ROW .col50 h2{
+    margin-bottom: 20px;
+
+}
+.titre-texte{
+    color: #0000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.titre-texte span{
+    color: #D87710;
+    font-size: 1.5em;
+    font-weight: 700px;
+    
+}
+.ROW .col50 img{
+    height: 450PX;
+    width: 500PX;
+    position: relative;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    margin-top: -100px;
+
+}
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+.menu .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #FFF;
+    box-shadow: 20px 15px 35px rgb(0, 0, 0, 0.8);
+
+}
+.menu .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+
+}
+.menu .contenu .box .text h3{
+    font-weight: 400PX;
+
+}
+.expert{
+    margin-top: -100PX;
+}
+.expert .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.expert .contenu .box{
+    width: 250px;
+    margin: 15px;
+}
+.expert .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.expert .contenu .box h3{
+    color: #111;
+    font-weight: 400;
+    text-align: center;
+}
+.Temoignage{
+    background-image: url(./image/pexels-sebastian-palomino-933481-1955134.jpg);
+    background-size: cover;
+}
+.Temoignage .contenu{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Temoignage .contenu .box{
+    width: 340px;
+    margin: 20px;
+    background: #f6faf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 40px;
+}
+.Temoignage .contenu .box .imbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.Temoignage .contenu .box .imbox img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.Temoignage .contenu .box .text{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+.Temoignage .contenu .box .text h3{
+    color: #FB911F;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.blanc .titre-texte{
+    color: #fff;
+}
+.blanc .titre-texte,
+.blanc p{
+    color: #fff;
+}
+.Contact{
+    background-image: url(./image/pexels-senuscape-728360-1658967.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0,0.8);
+    width: 100%;
+    background-position: unset;
+}
+.Contactform{
+    padding: 50px;
+    background: #FFF;
+    box-shadow: 5px 15PX 50px rgb( 0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+    
+}
+.Contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Contactform h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.Contactform .inputboite input,
+.Contactform .inputboite textarea{
+width: 100%;
+border: 1px solid #555;
+padding: 10px;
+color: #111;
+outline: 16px;
+font-weight: 300;
+resize: none;
+}
+.Contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+    background: #FB911F;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.copyright{
+    padding: 20px 40px;
+    border-top: 2px solid rgb( 0, 0, 0, 0.1);
+    background: rgb( 228, 222, 222,);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: #333;
+
+}
+.copyright a{
+    color: #FB911F;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+.Contact .titre-texte span{
+color: #FB911F;
+font-size: 2em;
+}
+header.sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgb( 0, 0, 0, 0.5);
+}
+header.sticky .logo{
+    color: #000;
+}
+header.sticky .navbar li a{
+    color: #000;
+}
+header.sticky .navbar li a:hover{
+    color: #FB911F;
+    border-bottom: 2px solid #FB911F;
+}
